@@ -1,6 +1,6 @@
 <template>
   <div class="event-single">
-    <section class="hero is-primary">
+    <section class="hero">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
@@ -16,11 +16,11 @@
     </section>
     <section class="event-content">
       <div class="container">
-        <p class="is-size-4 description">{{ event.description }}</p>
-        <p class="is-size-5"><strong>Location:</strong> {{ event.location }}</p>
-        <p class="is-size-5"><strong>Category:</strong> {{ event.category }}</p>
-        <div class="event-images columns is-multiline has-text-centered">
-          <div v-for="image in event.images" :key="image.id" class="column is-one-third">
+        <p class="description">{{ event.description }}</p>
+        <p><strong>Location:</strong> {{ event.location }}</p>
+        <p><strong>Category:</strong> {{ event.category }}</p>
+        <div class="event-images">
+          <div v-for="image in event.images" :key="image.id">
             <img :src="image" :alt="event.name"/>
           </div>
         </div>
@@ -36,31 +36,29 @@ export default {
       events: [
         {
           id: 1,
-          name: 'Charity Ball',
+          name: 'Annual Gala',
           category: 'Fundraising',
-          description: 'Spend an elegant night of dinner and dancing with us as we raise money for our new rescue farm.',
-          featuredImage: 'https://placekitten.com/500/500',
+          description: 'One night only! Meet our staff, learn our history and enjoy a nice meal with friends, while helping raise funds for this great organization.',
+          featuredImage: <img src="logo.png"/>,
           images: [
-            'https://placekitten.com/500/500',
-            'https://placekitten.com/500/500',
-            'https://placekitten.com/500/500',
+            
           ],
-          location: '1234 Fancy Ave',
-          date: '12-25-2019',
-          time: '11:30'
+          location: '555 E. Broadway',
+          date: '10-10-2021',
+          time:'5:00'
         },
         {
           id: 2,
-          name: 'Rescue Center Goods Drive',
-          category: 'Adoptions',
-          description: 'Come to our donation drive to help us replenish our stock of pet food, toys, bedding, etc. We will have live bands, games, food trucks, and much more.',
-          featuredImage: 'https://placekitten.com/500/500',
+           name: 'A Night Under The Stars',
+          category: 'Community Engagement',
+          description: 'Join us on this night-time adventure. Learn about the different species of squirrels all while playing games, enjoying local food trucks and use loaned telescopes to stargaze.',
+          featuredImage: <img src="logo.png"/>, 
           images: [
-            'https://placekitten.com/500/500'
+            
           ],
-          location: '1234 Dog Alley',
-          date: '11-21-2019',
-          time: '12:00'
+          location: 'Squirrel Valley Lodge',
+          date: '12-15-2021',
+          time: '7:00'
         }
       ],
       event: {}

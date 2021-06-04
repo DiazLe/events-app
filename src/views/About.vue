@@ -5,16 +5,15 @@
 </template>
 <template>
   <div class="about">
-    <div class="hero is-primary">
-      <div class="hero-body">
+    <div>
+      <div>
         <div class="container">
-          <h1 class="title is-size-1">About Animal Rescue League</h1>          
+          <h1>About Humans for Squirrels</h1>          
         </div>
       </div>
     </div>
     <div class="container">
-      <p class="org-description is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia aperiam eligendi dolorum reprehenderit ea amet, aliquid dolorem beatae, iste aliquam ullam. Sequi ab eligendi consectetur neque laudantium, libero asperiores.</p>
-      <p class="org-description is-size-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quia aperiam eligendi dolorum reprehenderit ea amet, aliquid dolorem beatae, iste aliquam ullam. Sequi ab eligendi consectetur neque laudantium, libero asperiores.</p>
+         <p class="org-description">Humans for Squirrels was founded on April 2020. It started as a backyard activity of feeding and watching daily squirrels! Eventually, realizing that a lot of these squirrels lack proper feeding grounds and discovering other squirrel rehabilitation centers, we decided to open up our own! Humans for Squirrels assists in rehabilitating lost and injured squirrels. We were able to build a center by hosting fundraising events and will continue to do so. We have discovered that squirrels really enjoy eating walnuts! If you would like to attend one of our fundraising events, tickets are sold at the door or you can contribute by gifting us a donation!</p>
     </div>
   </div>
 </template>
