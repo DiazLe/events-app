@@ -1,5 +1,5 @@
 <template>
-  <div class="events container">
+  <div class="events">
     <h2>
     Upcoming events!
     </h2>
