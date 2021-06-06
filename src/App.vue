@@ -6,12 +6,6 @@
   </div>
 </template>
 <script>
-var history = require('connect-history-api-fallback');
-var connect = require('connect');
-
-var app = connect()
-  .use(history())
-  .listen(3000);
 import Nav from './components/partials/Nav.vue';
 import Footer from './components/partials/Footer.vue';
 export default {
