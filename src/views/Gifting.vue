@@ -22,7 +22,7 @@
   </div>
 </template>
  <script>
- import gifting from '@/views/Gifting.vue';
+ 
 export default {
   name: 'Gifting',
    methods: {
