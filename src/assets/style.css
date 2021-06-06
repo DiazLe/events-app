@@ -1,0 +1,83 @@
+/*
+8ca0a2 morning blue - button border
+c7d1ce silver sand
+719883 polished pine
+cdd6cc ash gray - font color
+a4baa0 laurel green - background color
+*/
+
+body{
+    font-family: 'KoHo', sans-serif;
+    background-color:#a4baa0;
+    color:#cdd6cc;
+    margin:5% 10%;
+    font-size:30px;
+  }
+
+  img{
+    max-width: 50%;
+   }
+  
+  #navbar{
+    text-align:right;
+    text-decoration:none;
+   }
+
+   #navbar:hover{
+       color:#719883;
+   }
+
+   .navbar-item{
+    padding:1%;
+    text-decoration:none;
+   }
+
+   .navbar-item:hover{
+       color:#719883;
+   }
+
+   .elink{
+       text-decoration-line:none;
+   }
+
+   .elink:hover{
+       color:#719883;
+   }
+  
+  #logo {
+   display: block;
+   margin-left:auto;
+   margin-right:auto;
+   max-width:50%;
+  }
+  
+
+  button{
+    margin:1%;
+    background-color:transparent;
+    border:2px solid #8ca0a2;
+    color:#cdd6cc;
+    border-radius:25px;
+    padding:1%;
+  }
+  
+  button:hover {
+    background-color: #719883;
+  }
+  
+  #ao:hover{
+  background-color:transparent;
+  }
+  
+  footer{
+    margin-top:5%;
+    font-family: 'Caveat', cursive;
+  }
+
+  a {
+    font-weight: bold;
+    color: #cdd6cc;
+    &.router-link-exact-active {
+      color: #8ca0a2;
+    }
+  }  

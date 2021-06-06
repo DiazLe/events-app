@@ -1,7 +1,7 @@
 <template>
 <div class="home">
         <h1 class="title">
-          <img :src="require('@/assets/logo.png')">
+          <img :src="require('@/assets/logo.png')" id="logo">
         </h1>
   
         <h2 class="subtitle">
@@ -11,7 +11,7 @@
   
                <EventsList />
 
-       <footer> humans for squirrels &copy; 2021 </footer>
+      
 
 </div>
   

@@ -18,10 +18,15 @@ export default new Router({
       name: 'about',
       component: () => import('../views/About.vue')
     },
+    {path: '/gifting',
+    name: 'gifting',
+    component: () => import('../views/Gifting.vue')
+   },
     {
       path: '/event/:id',
       name: 'eventSingle',
       component: () => import('../views/EventSingle.vue')
     }
+   
   ]
 })

@@ -1,10 +1,10 @@
 <template>
   <div class="event-card">
-    
-        <h2>{{ event.name }}</h2>
-        <p>{{ event.date }}</p>
-        <p>{{ event.location }}</p>
-        <p>{{event.time}}</p>
+      
+        <h2 class="elink">{{ event.name }}</h2>
+        <p class="elink">{{ event.date }}</p>
+        <p class="elink">{{ event.location }}</p>
+        <p class="elink">{{event.time}}</p>
 
   </div>
    

@@ -16,10 +16,6 @@ let events =
     name: 'Annual Gala',
     category: 'Fundraising',
     description: 'One night only! Meet our staff, learn our history and enjoy a nice meal with friends, while helping raise funds for this great organization.',
-    featuredImage: <img src="logo.png"/>,
-    images: [
-      
-    ],
     location: '555 E. Broadway',
     date: '10-10-2021',
     time: '5:00'
@@ -29,10 +25,6 @@ let events =
     name: 'A Night Under The Stars',
     category: 'Community Engagement',
     description: 'Join us on this night-time adventure. Learn about the different species of squirrels all while playing games, enjoying local food trucks and use loaned telescopes to stargaze.',
-    featuredImage: <img src="logo.png"/>, 
-    images: [
-      
-    ],
     location: 'Squirrel Valley Lodge',
     date: '12-15-2021',
     time: '7:00'
